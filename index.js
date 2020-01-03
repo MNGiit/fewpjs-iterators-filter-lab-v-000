@@ -9,3 +9,7 @@ const findMatching = function(drivers, name) {
 const fuzzyMatch = function(drivers, str) {
   
 }
+
+const matchName = function(drivers, name) {
+  
+}
