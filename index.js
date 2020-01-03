@@ -6,6 +6,6 @@ const findMatching = function(drivers, name) {
   })
 }
 
-const fuzzyMatch = function() {
+const fuzzyMatch = function(drivers, str) {
   
 }
