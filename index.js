@@ -5,3 +5,7 @@ const findMatching = function(drivers, name) {
     return driver.toLowerCase() === name.toLowerCase();
   })
 }
+
+const fuzzyMatch = function() {
+  
+}
