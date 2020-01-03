@@ -11,7 +11,6 @@ const fuzzyMatch = function(drivers, str) {
   return drivers.filter(driver => {
     return driver.slice(0, length) === str;
   })
-  
 }
 
 const matchName = function(drivers, name) {
@@ -21,6 +20,3 @@ const matchName = function(drivers, name) {
 }
 
 
-  return list.filter(function (driverName) {
-    return driverName.slice(0, lengthOfName) === partialName;
-  });
